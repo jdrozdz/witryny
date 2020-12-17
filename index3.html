@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- kolumna 1 -->
+    <div style="float: left;">
+        <p>
+            Suma pkt: <span id="score-points">0</span>
+        </p>
+        
+        <p>
+            Zgadnij liczbe:
+            <div id="answer-buttons"></div>
+        </p>
+    </div>
+    <!-- kolumna druga -->
+    <div style="float: right;" id="game-board">
+        <div id="winner" style="visibility: hidden;">
+            <img style="width: 25%;" src="https://blog.ipleaders.in/wp-content/uploads/2020/04/winner.jpg" />
+        </div>
+        <div id="looser" style="visibility: hidden;">
+            <img style="width: 25%;" src="https://media.istockphoto.com/illustrations/loser-illustration-id502908165" />
+        </div>
+    </div>
+<script src="js/game1.js"></script>
+</body>
+</html>
