@@ -6,14 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <form onsubmit="Calculate(); return false;">
+    <form>
         <p>
-            Długość boku A: <input type="number" id="a" />
+            Długość boku A: 
+            <input id="a" onkeyup="Calculate()" />
         </p>
         <p>
-            Długość boku B: <input type="number" id="b" />
+            Długość boku B: 
+            <input id="b" onkeyup="Calculate()" />
         </p>
-        <button>Oblicz</button>
     </form>
     <p>
         Wynik: <span id="result"></span>
